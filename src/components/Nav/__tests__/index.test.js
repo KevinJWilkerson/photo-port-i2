@@ -28,6 +28,5 @@ describe("links are visible", () => {
     const { getByTestId } = render(<Nav />);
     expect(getByTestId("link")).toHaveTextContent("Oh Snap!");
     expect(getByTestId("about")).toHaveTextContent("About me");
-    //Assert
   });
 });
